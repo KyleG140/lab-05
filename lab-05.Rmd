@@ -23,7 +23,7 @@ knitr::include_graphics("img/Speaking-the-world.jpg")
 
 _Write your comments about image 1 below_
 
-
+# The image for chinese speakers clearly shows that it has considerably more speakers however english and spanish speakers look similar from the image however there is a lot more english than spanish speakers, the image does not show the proportions correctly but values are shown for readers so this does not follow the respect for the data rather than not following the respect for the people.
 
 
 
@@ -35,7 +35,7 @@ knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 
 _Write your comments about image 2 below_
 
-
+# There are no values so it is clear to see a rough estimate as to what is the biggest and smallest however without clear indication then this does not follow the respect of the people as we cannot see how much bigger one is form another.
 
 
 ## Image 3
@@ -46,7 +46,7 @@ knitr::include_graphics("img/life-expectancy-rule-of-law.png")
 
 _Write your comments about image 3 below_
 
-
+# This shows the data for every country and could be very informative however there are so many points on this graph that it becomes extremely difficult to be able to read it and does not follow the respect of the people.
 
 
 ## Image 4
@@ -57,14 +57,14 @@ knitr::include_graphics("img/global-income-dist.PNG")
 
 _Write your comments about image 4 below_
 
-
+# This shows how the Global Income Distribution differs between different areas of the world, shows where their peaks in Yearly Income per Person is and the higher the graph the higher the areas population.
 
 
 
 # Exercises
 
 ```{r load-data-staff, message=FALSE, eval=TRUE}
-staff <- read_csv("data/instructional-staff.csv")
+staff <- read.csv("data/instructional-staff.csv")
 ```
 
 
